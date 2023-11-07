@@ -12,8 +12,6 @@ This project contains all typography realities from holokit app, includes:
 
 # Demo
 
-# How does it work
-
 # System requirements
 This project uses HoloKit SDK and aims to build an app runs on iOS device.
 I created and built this project in Unity 2022.3.8f1, I highly recommand you use this version and above to open the project.
@@ -23,6 +21,11 @@ Make sure your Unity had install the iOS module:
 I built this project to iPhone with Xcode 14.2.
 
 # How to try it
+1. Clone the project.
+2. Open with Unity.
+3. Open a scene from path: Assets->Scenes.
+4. Build select scene into an Xcode project.
+5. Build to you device, open the app and try it out.
 
 # Design
 ## TypedRealityTheFlock
