@@ -86,5 +86,3 @@ This augmented reality experience creates a text storm that follows the target/p
 In this reality, we take head position as input, create a storm following the target(in Screen-AR mode)/player(in Stereo-AR mode).
 
 # Reference
-
-# License
