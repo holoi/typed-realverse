@@ -1,6 +1,7 @@
 # reality-typography
 # Abstract
-This project contains all typography realities from holokit app, includes:
+Last year we decided to launch official app of HoloKit, we realized that we should give our customer(especially developers) a glipse on what we can do with iPhone and HoloKit, so we created following scenes(realities we called) aim to utilize and demonstrate the capabilities of AR Foundation on the iPhone to create AR experiences that showcase both basic and advanced features.
+This project contains all typography realities released on holokit app, includes:
 
 1. TypedRealityTheFlock
 2. TypedRealityTheFingerRibbon
