@@ -26,22 +26,64 @@ I built this project to iPhone with Xcode 14.2.
 
 # Design
 ## TypedRealityTheFlock
-TypedRealityTheFlock creates an Stereo-AR experience that "birds" in a style of typography to fly around the player and sing at same time.
+
+TypedRealityTheFlock creates an Stereo-AR experience, a flock of "birds" in a style of typography fly around the player and sing at same time.
+
 ### Features
-This reality uses boid algorithm to drive "birds" fly around the player.
-In this reality, we use player's head postion as an importent input.
+
+To create a realistic experience, this reality uses boid algorithm to drive "birds" fly around the player.
+It takes the head position (the position of the mobile device) as input to create circular movement.
+
+In this scene, we used AR shadows on real-world ground to create a more realistic effect(shader included in this project). 
+
 ## TypedRealityTheFingerRibbon
-TypedRealityTheFlock creates an Stereo-AR experience that ribbons flows with your finger-tips.
+
+TypedRealityTheFlock creates an Stereo-AR experience that ribbons flows along with your finger-tips.
+
 ### Features
-TypedRealityTheFingerRibbon uses Hand-Tracking feature from HoloKit SDK. 
+
+TypedRealityTheFingerRibbon uses Hand-Tracking feature from HoloKit SDK.
 Tracking the positions of all your finger-tip to create ribbons
+
 ## TypedRealityTheHair
-TypedRealityTheHair
-In this scene, we use player's head postion as an importent input.
+
+TypedRealityTheHair creates an Stereo-AR experience that several Octopus-like long hair in a style of typography sways with your head movement.
+
+### Features
+
+In this scene, we use the player's head position as input to estimate the position of hair growth and attach physically responsive ribbons.
+
 ## TypedRealityTheRain
+
+TypedRealityTheRain creates an Stereo-AR experience where a white cloud, styled like typography, follows the player(person in camera in Screen-AR mode), continuously dropping raindrops. These raindrops collide with the real-world ground, splitting and fading away.
+
+### Features
+
+In this reality, we use 3DBodyTracking Feature to track a person in camera in Screen-AR mode. In Stereo-AR mode, the cloud follows the player.
+
 ## TypedRealityTheScanner
+
+TypedRealityTheScanner creates and Stereo-AR experience where  white rectangular ribbons in a style of typography on the surrounding floors, walls, and other environmental surfaces. These ribbons nest layer by layer, expanding over time.
+
+### Features
+
+In this reality, we use Meshing feature to get the mesh information of our surroundings in real-time, to change the material of mesh to render rectangular ribbons effect.
+
 ## TypedRealityTheSculpture
+
+TypedRealityTheSculpture creates and Stereo-AR experience allows us to launch text particles from our fingertips, filling a human-shaped sculpture.
+
+### Features
+
+In this reality, we use Hand-Tracking feature from HoloKit SDK to capture player’s hand(all joints) in real-time, creating particle from index tip joint.
+
 ## TypedRealityTheTornado
+
+This augmented reality experience creates a text storm that follows the target/player.
+
+### Features
+
+In this reality, we take head position as input, create a storm following the target(in Screen-AR mode)/player(in Stereo-AR mode).
 
 # Reference
 
