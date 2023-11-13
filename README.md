@@ -124,12 +124,24 @@ This augmented reality experience creates a text storm that follows the target/p
 
 ### Demo
 
-
 https://github.com/holoi/reality-typography/assets/52849063/d17b3b14-c1c6-47f8-91c1-ef880aa6d3d1
-
 
 ### Features
 
 In this reality, we take head position as input, create a storm following the target(in Screen-AR mode)/player(in Stereo-AR mode).
+
+## TypedRealityTapText
+
+This augmented reality experience creates a line segment covered with messages formed by stretching the index finger and thumb.
+
+
+### Demo
+
+https://github.com/holoi/reality-typography/assets/52849063/869d9e8a-c80a-49fa-92ee-452e34779eb7
+
+
+### Features
+
+In this reality, we utilized the gesture tracking capabilities of the SDK, recognizing the fingertips of the index finger and thumb and calculating the distance between them. A certain threshold triggers the retention of the line segment.
 
 # Reference
